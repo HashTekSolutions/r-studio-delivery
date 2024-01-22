@@ -49,7 +49,7 @@ variable "secret_name" {
 
 variable "domain_name" {
   type    = string
-  default = "k8jagadeeshhowdary.xyz."
+  default = "k8jagadeeshhowdary.xyz"
 }
 
 variable "subdomain_name" {
