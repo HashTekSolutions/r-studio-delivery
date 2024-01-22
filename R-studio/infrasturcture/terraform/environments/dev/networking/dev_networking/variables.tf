@@ -39,21 +39,21 @@ variable "private_subnet" {
 
 
 variable "key_name" {
-  default = "rstudio"
+  default = "rstudio1"
 }
 
 variable "secret_name" {
-  default = "rstudio-secret-123"
+  default = "rstudio-secret-12345"
 }
 
 
 variable "domain_name" {
   type    = string
-  default = "k8jagadeeshhowdary.xyz"
+  default = "cloudwithjagadeesh.xyz"
 }
 
 variable "subdomain_name" {
-  default = "jagadeesh"
+  default = "j"
 }
 
 
